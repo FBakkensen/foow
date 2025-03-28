@@ -1,4 +1,4 @@
-# System Patterns: ADHD Task Management System
+# System Patterns: foow - Task Management System
 
 ## Architecture Overview
 ```mermaid

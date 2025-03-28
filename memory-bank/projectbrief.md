@@ -1,4 +1,4 @@
-# Project Brief: ADHD Task Management System MVP
+# Project Brief: foow - Task Management System MVP
 
 ## Core Purpose
 A task management system specifically designed for individuals with ADHD, focusing on:

@@ -1,4 +1,4 @@
-# Progress Tracking: ADHD Task Management System
+# Progress Tracking: foow - Task Management System
 
 ## Completed Features
 ✅ **Project Setup**

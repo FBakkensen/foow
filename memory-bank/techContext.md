@@ -1,4 +1,4 @@
-# Technical Context: ADHD Task Management System
+# Technical Context: foow - Task Management System
 
 ## Technology Stack
 

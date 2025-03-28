@@ -1,4 +1,4 @@
-# Product Context: ADHD Task Management System
+# Product Context: foow - ADHD Task Management System
 
 ## Why This Project Exists
 1. **ADHD Challenges Addressed**:

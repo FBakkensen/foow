@@ -1,4 +1,4 @@
-# Active Context: ADHD Task Management System
+# Active Context: foow - Task Management System
 
 ## Current Work Focus
 1. **Project Setup & Planning** (Section 1.1-1.3 of Implementation Plan)
