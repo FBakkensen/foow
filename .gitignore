@@ -29,3 +29,13 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# React/Tailwind
+client/node_modules
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/build
+client/.cache
+client/dist
