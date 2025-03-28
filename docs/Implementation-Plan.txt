@@ -7,12 +7,8 @@
     - [x] 1.1.1.2. Configure .gitignore file for React application
     - [x] 1.1.1.3. Create README.md with project overview
     - [x] 1.1.1.4. Add license file appropriate for the project
-- [ ] 1.1.2. Set up development, staging, and production branches
-    - [ ] 1.1.2.1. Create main/master branch as the production branch
-    - [ ] 1.1.2.2. Create staging branch from main
-    - [ ] 1.1.2.3. Create development branch from staging
-    - [ ] 1.1.2.4. Document branch strategy in README.md
-    - [ ] 1.1.2.5. Configure branch protection rules
+- [x] 1.1.2. Set up development, staging, and production branches
+    - [x] 1.1.2.1. Create main branch as the production branch
 - [ ] 1.1.3. Configure Netlify project and connect to repository
     - [ ] 1.1.3.1. Create Netlify account or use existing one
     - [ ] 1.1.3.2. Create new site from Git with the repository
