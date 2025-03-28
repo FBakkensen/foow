@@ -9,12 +9,6 @@
     - [x] 1.1.1.4. Add license file appropriate for the project
 - [x] 1.1.2. Set up development, staging, and production branches
     - [x] 1.1.2.1. Create main branch as the production branch
-- [ ] 1.1.3. Configure Netlify project and connect to repository
-    - [ ] 1.1.3.1. Create Netlify account or use existing one
-    - [ ] 1.1.3.2. Create new site from Git with the repository
-    - [ ] 1.1.3.3. Configure build settings (build command, publish directory)
-    - [ ] 1.1.3.4. Set up domain settings
-    - [ ] 1.1.3.5. Configure deploy contexts for different branches
 - [ ] 1.1.4. Set up local development environment with React
     - [ ] 1.1.4.1. Install Node.js and npm/yarn
     - [ ] 1.1.4.2. Initialize Create React App project
@@ -56,7 +50,6 @@
     - [ ] 1.2.4.4. Implement middleware for async operations
     - [ ] 1.2.4.5. Create selectors for accessing state data
 
-
 ### 1.3. Backend \& Database Configuration
 
 - [ ] 1.3.1. Create Supabase project
@@ -89,6 +82,12 @@
     - [ ] 1.3.5.3. Create environment variables typescript definition file
     - [ ] 1.3.5.4. Configure environment variable loading
     - [ ] 1.3.5.5. Test environment variable access
+- [ ] 1.4.1. Configure Netlify project and connect to repository
+    - [ ] 1.4.1.1. Create Netlify account or use existing one
+    - [ ] 1.4.1.2. Create new site from Git with the repository
+    - [ ] 1.4.1.3. Configure build settings (build command, publish directory)
+    - [ ] 1.4.1.4. Set up domain settings
+    - [ ] 1.4.1.5. Configure deploy contexts for different branches
 
 
 ## 2. Core Authentication \& User Management
