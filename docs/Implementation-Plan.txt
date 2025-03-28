@@ -9,13 +9,13 @@
     - [x] 1.1.1.4. Add license file appropriate for the project
 - [x] 1.1.2. Set up development, staging, and production branches
     - [x] 1.1.2.1. Create main branch as the production branch
-- [ ] 1.1.4. Set up local development environment with React
-    - [ ] 1.1.4.1. Install Node.js and npm/yarn
-    - [ ] 1.1.4.2. Initialize Create React App project
-    - [ ] 1.1.4.3. Configure code editor with appropriate extensions
-    - [ ] 1.1.4.4. Set up ESLint and Prettier
-    - [ ] 1.1.4.5. Test local development server
-- [ ] 1.1.5. Install necessary dependencies and packages
+- [ ] 1.1.3. Set up local development environment with React
+    - [ ] 1.1.3.1. Install Node.js and npm/yarn
+    - [ ] 1.1.3.2. Initialize Create React App project
+    - [ ] 1.1.3.3. Configure code editor with appropriate extensions
+    - [ ] 1.1.3.4. Set up ESLint and Prettier
+    - [ ] 1.1.3.5. Test local development server
+- [ ] 1.1.4. Install necessary dependencies and packages
     - [ ] 1.1.5.1. Install React Router for navigation
     - [ ] 1.1.5.2. Install Supabase client library
     - [ ] 1.1.5.3. Install state management library (e.g., Redux or Context API)
