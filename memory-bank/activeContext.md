@@ -17,11 +17,13 @@
    - Basic .gitignore configured
    - Initial project documentation started
    - Memory bank initialized with core files
+   - React component structure established (App.tsx, index.tsx)
 
 2. **In Progress**:
-   - Netlify project configuration
-   - Local React development setup
-   - Supabase project creation
+   - Netlify project configuration (environment variables setup)
+   - React component scaffolding (App.tsx, index.tsx)
+   - Supabase authentication integration
+   - OpenAI API key configuration
 
 ## Key Decisions & Considerations
 1. **Technical Choices**:

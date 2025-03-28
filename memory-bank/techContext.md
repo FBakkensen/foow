@@ -31,6 +31,44 @@
 5. **OpenAI API key** for AI features
 
 ### Configuration
+1. **Environment Variables** (partially configured):
+   - `REACT_APP_SUPABASE_URL` - Supabase project URL
+   - `REACT_APP_SUPABASE_ANON_KEY` - Public anonymous key
+   - `REACT_APP_OPENAI_API_KEY` - Pending configuration
+   - `REACT_APP_NETLIFY_FUNCTIONS_URL` - Netlify API endpoint
+# Technical Context: foow - Task Management System
+
+## Technology Stack
+
+### Core Technologies
+1. **Frontend**:
+   - React (TypeScript template)
+   - React Router for navigation
+   - Supabase client library
+   - Context API for state management
+
+2. **Backend Services**:
+   - Netlify Serverless Functions
+   - Supabase PostgreSQL database
+   - Supabase Auth for authentication
+   - OpenAI GPT API for task decomposition
+
+3. **Development Tools**:
+   - Create React App for project scaffolding
+   - ESLint + Prettier for code quality
+   - Jest for testing
+   - GitHub for version control
+
+## Development Setup
+
+### Prerequisites
+1. **Node.js** (v16+ recommended)
+2. **npm** or **yarn** for package management
+3. **Git** for version control
+4. **Supabase account** for database
+5. **OpenAI API key** for AI features
+
+### Configuration
 1. **Environment Variables**:
    - `REACT_APP_SUPABASE_URL`
    - `REACT_APP_SUPABASE_ANON_KEY`

@@ -177,7 +177,7 @@ flowchart TD
     Learn --> Apply
 ```
 
-### What to Capture
+## What to Capture
 - Critical implementation paths
 - User preferences and workflow
 - Project-specific patterns
@@ -191,3 +191,198 @@ REMEMBER: After every memory reset, I begin completely fresh. The Memory Bank is
 
 # Learning
 Be descriptive on why you do as you do, to get me a chance to learn from you, assume you are teaching a beginner
+
+# Code Readability
+## 0. Avoid novelty:
+- Stick to familiar patterns instead of using new or complex constructs.
+- This makes your code easier to understand because readers don’t have to learn new styles.
+
+## 1. Simplify conditionals:
+- Keep your conditional checks short and straightforward.
+- Avoid mixing different logical operators like `&&` and `||` in the same condition.
+
+## 2. Minimize nesting:
+- Avoid deeply nested logic by breaking it into smaller functions.
+- Flattening your code makes it easier to follow and debug.
+
+## 3. Group logic:
+- Break long chains of functions or iterators into smaller steps.
+- Use helper functions or intermediate variables to make the flow clearer.
+
+## 4. Use distinct variable names:
+- Choose descriptive and unique names for your variables.
+- Avoid names that look similar, like `i` and `j`, to prevent confusion.
+
+## 5. Keep variables short-lived:
+- Declare variables as close to their usage as possible.
+- This reduces the mental effort needed to track their values.
+
+## 6. Write smaller functions:
+- Keep your functions small and focused on a single task.
+- Smaller functions are easier to read, test, and reuse.
+
+## 7. Avoid gotos:
+- Use gotos only when absolutely necessary.
+- They can make your code harder to follow and debug.
+
+# Clean Code and SOLID Principles for React Projects
+
+This .clinerules file instructs Cline to adhere to clean code and SOLID principles when working with React, and perform thorough code reviews to ensure quality and maintainability.
+
+## Clean Code Standards
+
+### Component Structure
+
+- Keep components small and focused (under 200 lines)
+- Limit JSX markup to 50 lines per component
+- Break large components into smaller, reusable ones
+- Use functional components over class components
+- Extract complex logic into clearly-named helper functions
+- Use React fragments to avoid unnecessary div wrappers
+
+
+### Naming Conventions
+
+- Use PascalCase for component names (e.g., `UserProfile`)
+- Use camelCase for variables, functions, and props
+- Create descriptive, intention-revealing names
+- Prefix boolean props/variables with is/has/should (isActive, hasError)
+- Be consistent with naming patterns across similar components
+
+
+### JavaScript Best Practices
+
+- Use const for variables that don't change, let only when necessary
+- Never use var
+- Employ destructuring for props and state
+- Utilize spread/rest operators appropriately
+- Use template literals for string concatenation
+- Prefer arrow functions for callbacks and event handlers
+- Implement optional chaining and nullish coalescing
+
+
+### Conditional Rendering
+
+- Use `&&` operator for simple conditional rendering when condition is true
+- Use ternary operators for if/else conditional rendering
+- Extract complex conditional logic to separate functions
+- Avoid nested ternaries that reduce readability
+
+
+### State Management
+
+- Minimize state usage - only store what's necessary
+- Keep related state together
+- Use appropriate React hooks (useState, useEffect, useCallback, useMemo)
+- Add proper dependency arrays to hooks
+- Implement context for global state when appropriate
+
+
+## SOLID Principles in React
+
+### Single Responsibility Principle (SRP)
+
+- Each component should have only one reason to change
+- Components should do one thing and do it well
+- Extract unrelated functionality into separate components
+- Separate UI components from containers with business logic
+- Create custom hooks for reusable logic
+
+
+### Open/Closed Principle (OCP)
+
+- Components should be open for extension but closed for modification
+- Use props to make components extensible
+- Implement component composition over inheritance
+- Create HOCs or custom hooks for cross-cutting concerns
+- Design components to accept children or render props for flexibility
+
+
+### Liskov Substitution Principle (LSP)
+
+- Child components should be substitutable for their parent components
+- Maintain consistent prop interfaces across related components
+- Ensure derived components preserve the behavior of base components
+- Use TypeScript/PropTypes to enforce type constraints
+
+
+### Interface Segregation Principle (ISP)
+
+- Components should not depend on props they don't use
+- Break down large prop interfaces into smaller, focused ones
+- Use object destructuring to clearly show which props are used
+- Create specialized components instead of general-purpose ones with unused props
+
+
+### Dependency Inversion Principle (DIP)
+
+- High-level components should not depend on low-level implementations
+- Depend on abstractions, not concrete implementations
+- Use dependency injection via props
+- Extract API calls to custom hooks or services
+- Use context for providing dependencies to component trees
+
+
+## Code Review Process
+
+After generating any code, Cline MUST perform a self-review to ensure adherence to clean code and SOLID principles. Follow this code review checklist:
+
+### Clean Code Review
+
+- Are components kept small and focused on a single responsibility?
+- Is naming consistent, clear, and descriptive?
+- Is the code free of duplicated logic?
+- Are there any unnecessary complexities or optimizations?
+- Is state managed efficiently without redundant state?
+- Is conditional rendering handled appropriately?
+- Are there any magic numbers or strings that should be constants?
+- Are comments helpful and focused on explaining "why" not "what"?
+- Are ES6+ features used effectively where appropriate?
+- Is error handling implemented appropriately?
+
+
+### SOLID Principles Review
+
+- **SRP**: Does each component have a single, well-defined responsibility?
+- **OCP**: Can components be extended without modifying existing code?
+- **LSP**: Are child components substitutable for their parents without breaking functionality?
+- **ISP**: Do components only depend on props they actually use?
+- **DIP**: Does the code depend on abstractions rather than concrete implementations?
+
+
+### React-Specific Review
+
+- Are React hooks used correctly (following rules of hooks)?
+- Are dependencies arrays properly configured in useEffect/useCallback/useMemo?
+- Is there logic in render methods that should be extracted?
+- Are keys properly used in lists with unique values?
+- Are there any performance issues like unnecessary re-renders?
+- Is prop drilling minimized through context or composition?
+- Is there proper separation between UI and business logic?
+- Are forms handled efficiently?
+- Are proper React patterns used (controlled components, lifting state up)?
+
+
+### Code Review Output Format
+
+When reviewing generated code, Cline must:
+
+1. First highlight what aspects of the code successfully implement clean code and SOLID principles
+2. Then identify any issues or violations of these principles
+3. For each issue, explain:
+    - What principle or standard is violated
+    - Why it's problematic
+    - Provide a specific code example showing how to fix it
+4. Summarize the overall quality of the code and the recommended improvements
+
+## Implementation Requirements
+
+When writing React code, Cline MUST:
+
+- Implement TypeScript for type safety
+- Use functional components and hooks
+- Apply proper prop validation
+- Create reusable, modular components
+- Follow the project's existing patterns and conventions
+- Consider performance implications
+- Include inline documentation for complex logic
