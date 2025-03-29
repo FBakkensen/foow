@@ -9,7 +9,7 @@
    - React 18 with TypeScript
    - React Router v6 for navigation
    - Supabase JS Client v2.39.8
-   - Context API + useReducer for state
+   - Context API + useReducer for state management
 
 2. **Backend Services**:
 
@@ -33,9 +33,9 @@
 
 🟡 Pending:
 
-- REACT_APP_OPENAI_API_KEY
+- REACT_APP_OPENAI_API_KEY (Critical Blocker)
 - Netlify Functions deployment
-- Final UI component library selection
+- UI component library: Shadcn selected
 
 ## Project Structure
 

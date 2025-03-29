@@ -41,7 +41,7 @@
    - Using Context API over Redux for state management
    - Opting for serverless functions instead of full backend
    - Implementing row-level security in Supabase
-   - Pending: UI component library selection
+   - UI component library: Shadcn implemented
 
 2. **ADHD-Specific Adjustments:**
    - Prioritizing single-task view development

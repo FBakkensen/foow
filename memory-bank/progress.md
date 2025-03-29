@@ -17,7 +17,7 @@
      - [x] 1.1.5.1 React Router
      - [x] 1.1.5.2 Supabase client
      - [x] 1.1.5.3 Redux (state management)
-     - [x] 1.1.5.4 Shadcn UI
+     - [x] 1.1.5.4 Shadcn UI (implemented)
      - [x] 1.1.5.5 Testing libraries (Jest, RTL, MSW)
      - [ ] 1.1.5.6 Test local development server
 
@@ -34,5 +34,8 @@
    - [ ] 1.3.2 Configure database tables
 
 ### Known Issues & Blockers
+
+1. **Critical Blocker**:
+   - Missing REACT_APP_OPENAI_API_KEY environment variable (required for MVP)
 
 (Remains unchanged from previous content)
