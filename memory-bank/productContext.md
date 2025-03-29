@@ -1,65 +1,49 @@
 # Product Context: foow - ADHD Task Management System
 
-## Why This Project Exists
-1. **ADHD Challenges Addressed**:
-   - Task initiation difficulties (overcome through AI decomposition)
-   - Overwhelm from complex tasks (managed via subtasks)
-   - Distractibility (mitigated through focused interface)
-   - Time blindness (helped by deadline tracking)
-   - Working memory limitations (supported by persistent task storage)
+## Core User Needs
 
-2. **Key Problems Solved**:
-   - Breaks down "stuck" tasks into actionable steps
-   - Reduces cognitive load through minimal interface
-   - Provides clear visual prioritization
-   - Maintains task continuity across devices
-   - Supports focus through structured work intervals
+1. **Task Initiation**
 
-## How It Should Work
-### Ideal User Experience
-1. **Task Creation**:
-   - Simple input with optional AI-assisted breakdown
-   - Quick addition for spontaneous tasks
-   - Clear priority selection
+   - Reduce activation energy for starting tasks
+   - Clear visual hierarchy of priorities
+   - Guided structure for task definition
 
-2. **Task Management**:
-   - Single-task view to prevent overwhelm
-   - Subtask completion with progress feedback
-   - Deadline visibility without clutter
+2. **Focus Maintenance**
 
-3. **Focus Mode**:
-   - Clean, distraction-free interface
-   - Prominent completion button
-   - Gentle transition cues between work/break
+   - Prevent context switching
+   - Minimize decision fatigue
+   - Visual time awareness without pressure
 
-### ADHD-Specific Design Principles
-1. **Cognitive Considerations**:
-   - Minimal steps to start working
-   - Reduced decision points
-   - Immediate feedback on actions
-   - Consistent interaction patterns
+3. **Memory Support**
+   - Persistent task storage across devices
+   - Clear status tracking
+   - Recovery path for interrupted work
 
-2. **Visual Design**:
-   - High contrast elements
-   - Clear typography hierarchy
-   - Limited color palette
-   - Purposeful animations (not distracting)
+## Resolved Design Decisions
 
-3. **Behavioral Support**:
-   - Progress visibility
-   - Completion celebrations
-   - Gentle reminders
-   - Forgiving interaction model
+1. **Task Durations**
 
-## Target Outcomes
-1. **For Users**:
-   - Reduced task avoidance
-   - Increased task completion
-   - Improved time awareness
-   - Decreased frustration
+   - Store relative durations from creation time
+   - Convert to absolute timestamps only for display purposes
 
-2. **For Development**:
-   - Validated core concept
-   - Clear feedback for iteration
-   - Foundation for future features
-   - Demonstrated technical viability
+2. **Urgency Handling**
+
+   - Prototype phase excludes urgency sorting
+   - Future implementation will use priority-based scoring
+
+3. **Decomposition Architecture**
+   - Server-side processing via Netlify Functions
+   - Client handles only UI/UX presentation
+
+## Key UX Principles
+
+```mermaid
+graph TD
+    A[Minimal Interface] --> B[Single Column Layout]
+    A --> C[Limited Color Palette]
+    A --> D[Zero Floating Elements]
+    E[Progressive Disclosure] --> F[Collapsible Task Details]
+    E --> G[Step-by-Step Decomposition]
+    H[Kinetic Feedback] --> I[Subtle Animations]
+    H --> J[Progress Visualization]
+```

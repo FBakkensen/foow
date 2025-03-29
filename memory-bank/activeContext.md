@@ -1,76 +1,31 @@
-# Active Context: foow - Task Management System
+# Active Context: Current Development Focus
 
-## Current Work Focus
+## Updated Sprint Goals (March 25-29 2025)
 
-1. **Finalizing Development Environment**
+1. Implement server-side task decomposition
+2. Build timer UI components
+3. Finalize Supabase sync middleware
+4. Complete auth session handling
 
-   - Testing local development server
-   - Installing core dependencies (React Router, Supabase client, state management)
-   - Making UI component library decision
+```mermaid
+gantt
+    title Current Sprint Progress
+    dateFormat  YYYY-MM-DD
+    section Task Decomposition
+    Server Integration : active, des1, 2025-03-29, 1d
+    Error Handling : done, des2, 2025-03-28, 1d
+    section Authentication
+    Session Refresh : 75%, a2, 2025-03-28, 1d
+```
 
-2. **Project Structure Setup**
+## Resolved Blockers
 
-   - Cleaning up default CRA files
-   - Establishing folder structure (components, hooks, services, utilities, types)
+1. Server-side decomposition architecture finalized
+2. API key security implemented via Netlify env vars
+3. Supabase RLS policies configured
 
-3. **Initial Backend Configuration**
-   - Creating Supabase project
-   - Designing database tables
-   - Setting up authentication
+## Immediate Next Steps
 
-## Recent Changes
-
-1. **Completed:**
-
-   - GitHub repository created and configured
-   - Development branches established
-   - Node.js and npm installed
-   - Create React App initialized with TypeScript
-   - ESLint and Prettier configured
-
-2. **In Progress:**
-   - Local development environment testing
-   - Dependency installation
-   - Supabase project configuration
-   - OpenAI API key configuration
-
-## Key Decisions & Considerations
-
-1. **Technical Choices:**
-
-   - Using Context API over Redux for state management
-   - Opting for serverless functions instead of full backend
-   - Implementing row-level security in Supabase
-   - UI component library: Shadcn implemented
-
-2. **ADHD-Specific Adjustments:**
-   - Prioritizing single-task view development
-   - Focusing on immediate feedback mechanisms
-   - Simplifying navigation patterns
-
-## Next Steps
-
-1. **Immediate Priorities:**
-
-   - Complete local development environment setup (test server, install dependencies)
-   - Create project folder structure
-   - Set up Supabase project and initial tables
-   - Configure Netlify project
-
-2. **Upcoming Milestones:**
-   - First functional prototype (basic task management)
-   - Initial AI integration test
-   - First end-to-end user flow
-
-## Blockers & Open Questions
-
-1. **Pending Items:**
-
-   - OpenAI API key configuration
-   - Finalizing Supabase schema design
-   - Netlify function testing approach
-
-2. **Decisions Needed:**
-   - UI component library selection
-   - Error handling strategy
-   - Loading state designs
+1. Update client to use server-side decomposition
+2. Implement loading states in UI
+3. Add error handling for failed API calls
