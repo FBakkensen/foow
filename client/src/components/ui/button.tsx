@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { cn } from '@/lib/utils';
+import { cn } from '../../utilities/utils';
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -7,7 +7,13 @@ export interface ButtonProps
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'default', ...props }, ref) => {
+  ({ className, variant = 'default', children, ...props }, ref) => {
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
+      if ((event.key === 'Enter' || event.key === ' ') && props.onClick) {
+        props.onClick(event as unknown as React.MouseEvent<HTMLButtonElement>);
+      }
+    };
+
     return (
       <button
         className={cn(
@@ -24,8 +30,13 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         ref={ref}
+        aria-label={props['aria-label'] || 'Button'}
+        tabIndex={0}
+        onKeyDown={handleKeyDown}
         {...props}
-      />
+      >
+        {children}
+      </button>
     );
   }
 );

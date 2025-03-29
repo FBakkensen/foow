@@ -1,0 +1,1 @@
+# Types\nGlobal type definitions
