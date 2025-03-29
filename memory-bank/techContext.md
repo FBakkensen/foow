@@ -5,10 +5,12 @@
 ```json
 {
   "frontend": {
-    "react": "^18.2.0",
-    "redux": "^4.2.1",
-    "supabase": "^2.39.8",
-    "date-fns": "^2.30.0"
+    "react": "^19.0.0",
+    "@reduxjs/toolkit": "^2.6.1",
+    "react-redux": "^9.2.0",
+    "@supabase/supabase-js": "^2.49.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^4.9.5"
   },
   "services": {
     "netlify": {
@@ -19,6 +21,13 @@
   }
 }
 ```
+
+## UI Components
+
+- Radix UI Primitives (@radix-ui/react-\*)
+- Class Variance Authority (CVA) patterns
+- Tailwind Merge for conditional styling
+- Custom component library following Atomic Design
 
 ## Architecture Decisions
 

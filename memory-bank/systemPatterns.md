@@ -39,13 +39,20 @@ graph TD
    - Benefits: Centralized business logic, better security for API keys
    - Client handles only UI/UX aspects
 
-2. **Sync Frequency**
+2. **Redux State Management**
+   - RTK Query for API calls
+   - Normalized task state structure
+   - Memoized selectors for performance
+   - Action serialization for debug purposes
+
+3. **Sync Frequency**
    - Immediate sync after task modifications
    - Background sync every 15 minutes for reliability
 
-3. **Error Recovery**
+4. **Error Recovery**
    - Retry failed syncs with exponential backoff
    - Local storage fallback for offline changes
+   - Redux state snapshotting for rollbacks
 
 ## Security Patterns
 - JWT authentication flow

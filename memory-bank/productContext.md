@@ -1,20 +1,26 @@
 # Product Context: foow - ADHD Task Management System
 
-## Core User Needs
+## Core User Needs (ADHD-Specific)
 
 1. **Task Initiation**
 
-   - Reduce activation energy for starting tasks
-   - Clear visual hierarchy of priorities
-   - Guided structure for task definition
+   - "Wall of Awful" reduction through microtasking
+   - Time blindness compensation via relative durations
+   - Paralysis prevention through AI decomposition
 
 2. **Focus Maintenance**
 
-   - Prevent context switching
-   - Minimize decision fatigue
-   - Visual time awareness without pressure
+   - Hyperfocus support with auto-extend timers
+   - Distraction logging for post-interruption recovery
+   - Kinetic scrolling to maintain physical engagement
 
-3. **Memory Support**
+3. **Emotional Regulation**
+
+   - Progress visualization for dopamine reinforcement
+   - Error-tolerant UI with undo everywhere
+   - Anxiety reduction through clear exit points
+
+4. **Memory Support**
    - Persistent task storage across devices
    - Clear status tracking
    - Recovery path for interrupted work

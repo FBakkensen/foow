@@ -2,10 +2,10 @@
 
 ## Updated Sprint Goals (March 25-29 2025)
 
-1. Implement server-side task decomposition
-2. Build timer UI components
-3. Finalize Supabase sync middleware
-4. Complete auth session handling
+1. Component library development (Radix + CVA)
+2. State normalization patterns
+3. Automated testing infrastructure
+4. Supabase real-time subscriptions
 
 ```mermaid
 gantt
