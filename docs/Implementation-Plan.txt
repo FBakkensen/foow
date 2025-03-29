@@ -12,7 +12,7 @@
 - [ ] 1.1.3. Set up local development environment with React
     - [x] 1.1.3.1. Install Node.js and npm/yarn
     - [x] 1.1.3.2. Initialize Create React App project
-    - [ ] 1.1.3.3. Set up ESLint and Prettier
+    - [x] 1.1.3.3. Set up ESLint and Prettier
     - [ ] 1.1.3.4. Test local development server
 - [ ] 1.1.4. Install necessary dependencies and packages
     - [ ] 1.1.5.1. Install React Router for navigation
