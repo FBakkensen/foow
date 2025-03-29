@@ -25,12 +25,12 @@
 
 ### 1.2. Project Structure Setup
 
-- [ ] 1.2.1. Create React application scaffold using Create React App
-    - [ ] 1.2.1.1. Initialize CRA with TypeScript template
-    - [ ] 1.2.1.2. Clean up default CRA files and components
-    - [ ] 1.2.1.3. Create initial App component structure
-    - [ ] 1.2.1.4. Set up CSS/SCSS structure
-    - [ ] 1.2.1.5. Create favicon and app icons
+- [x] 1.2.1. Create React application scaffold using Create React App
+    - [x] 1.2.1.1. Initialize CRA with TypeScript template
+    - [x] 1.2.1.2. Clean up default CRA files and components
+    - [x] 1.2.1.3. Create initial App component structure
+    - [x] 1.2.1.4. Set up CSS/SCSS structure
+    - [x] 1.2.1.5. Create favicon and app icons
 - [ ] 1.2.2. Establish folder structure for components, hooks, services, and utilities
     - [ ] 1.2.2.1. Create components folder with subfolders for UI, layout, and features
     - [ ] 1.2.2.2. Set up hooks folder for custom React hooks
