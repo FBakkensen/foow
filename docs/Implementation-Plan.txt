@@ -19,8 +19,8 @@
     - [x] 1.1.5.2. Install Supabase client library
     - [x] 1.1.5.3. Install state management library (Redux)
     - [x] 1.1.5.4. Install UI component library (Shadcn UI)
-    - [ ] 1.1.5.5. Install testing libraries
-    - [ ] 1.1.5.6. Test local development server
+    - [x] 1.1.5.5. Install testing libraries
+    - [x] 1.1.5.6. Test local development server
 
 
 ### 1.2. Project Structure Setup
