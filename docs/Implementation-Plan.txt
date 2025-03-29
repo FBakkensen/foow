@@ -14,7 +14,7 @@
     - [x] 1.1.3.2. Initialize Create React App project
     - [x] 1.1.3.3. Set up ESLint and Prettier
     - [x] 1.1.3.4. Test local development server
-- [ ] 1.1.4. Install necessary dependencies and packages
+- [x] 1.1.4. Install necessary dependencies and packages
     - [x] 1.1.5.1. Install React Router for navigation
     - [x] 1.1.5.2. Install Supabase client library
     - [x] 1.1.5.3. Install state management library (Redux)
